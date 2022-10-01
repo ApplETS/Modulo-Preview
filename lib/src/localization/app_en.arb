@@ -1,0 +1,6 @@
+{
+  "appTitle": "modulo_preview",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
