@@ -15,6 +15,9 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
+  modulo:
+    path: ./Modulo
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
