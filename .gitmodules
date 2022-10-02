@@ -1,0 +1,3 @@
+[submodule "Modulo"]
+	path = Modulo
+	url = git@github.com:ApplETS/Modulo.git
