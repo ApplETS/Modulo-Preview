@@ -1,30 +1,44 @@
-# modulo_preview
+<div align="center">
+  <img src="https://d33wubrfki0l68.cloudfront.net/05095d995ef6b2ddc419a51a22cad5e975f4072b/2d081/images/logo_blanc_applets.png" />
+  <p>
+    <br /><strong>Modulo Project</strong>
+  </p>
+</div>
 
-A new Flutter project.
+This project is the preview of the design system for the all the application write in flutter of the student club [ApplETS](https://clubapplets.ca/).
 
-## Getting Started
+_Note: This guide is also available in: [Français](https://github.com/ApplETS/Notre-Dame/blob/master/README.fr.md)_
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
+## Technologies used
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* [Flutter](https://flutter.dev)
 
-## Assets
+## Requirements
 
-The `assets` directory houses images, fonts, and any other files you want to
-include with your application.
+- Flutter SDK v3.3.3
+```sh
+# to downgrade flutter version to the required version, simply do:
+$ flutter downgrade 3.3.3
+```
+- Openssl v1.1.1g or higher
 
-The `assets/images` directory contains [resolution-aware
-images](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware).
+## Clone the github
 
-## Localization
+To clone the repo with the submodule you need to run this command: 
+```
+git clone --recurse-submodules git@github.com:ApplETS/Modulo-Preview.git
+```
 
-This project generates localized messages based on arb files found in
-the `lib/src/localization` directory.
+## Run the code
 
-To support additional languages, please visit the tutorial on
-[Internationalizing Flutter
-apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
+- After cloning the repo, you will have to get the packages and generate the l10n classes. To do that run the following
+  command:
+
+```
+flutter pub get
+```
+
+## ⚖️ License
+
+This projet is licensed under the GNU General Public License v2.0. See
+the [LICENSE](https://github.com/ApplETS/Modulo-Preview/blob/main/LICENCE) file for more info.
