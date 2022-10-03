@@ -7,8 +7,6 @@
 
 This project is the preview of the design system for the all the application write in flutter of the student club [ApplETS](https://clubapplets.ca/).
 
-_Note: This guide is also available in: [Français](https://github.com/ApplETS/Notre-Dame/blob/master/README.fr.md)_
-
 ## Technologies used
 
 * [Flutter](https://flutter.dev)
